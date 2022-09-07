@@ -1,7 +1,7 @@
 import icon from '../../assets/img/notification-icon.svg';
 import './styles.css';
 
-const index = () => {
+const NotificationButton = () => {
   return (
     <div className="dsmeta-red-btn">
       <img src={icon} alt="Notificar" />
@@ -9,4 +9,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default NotificationButton;
